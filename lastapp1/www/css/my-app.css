@@ -3,32 +3,31 @@ a
 
     font-size: 30px
 }
- img {
+
+img {
 
     height: 30%;
  }
 
 
-li{
+li {
 
     font-style: italic;
-            font-size: 40px;
+    font-size: 40px;
 }
 
-p   {
+p {
 
-             font-style: italic;
-            font-size: 50px; 
-            margin: left;
+    font-style: italic;
+    font-size: 50px; 
+    margin: left;
 
 }
-
 
 body {
     font-family: "Lato", sans-serif;
-overflow: auto;
+    overflow: auto;
     background-color: pink ;
-    position: fixed;
 }
 
 
