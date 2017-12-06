@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Section</title>
+        <link rel="stylesheet" type="text/css" href="wwww.css/framework7.material.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/framework7.material.colors.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/my-app.css"> 
+    </head>
+   <body class="framework7-root">
+   <!--  <div class="page-content"></div> -->
+
+  
+        <div id="icon"></div>
+       <div class="icon-bar" >
+        <span style="font-size:70px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+        
+       </div>
+
+
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <div id="root" ></div>
+</div>
+        
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+    </script>
+
+
+<div id="r"></div>
+</body>
+
+    <script crossorigin type="text/javascript" src="js/react.min.js"></script>
+    <script crossorigin type="text/javascript" src="js/react-dom.min.js"></script>
+     <script crossorigin type="text/javascript" src="js/babel.min.js"></script> 
+    <script crossorigin type="text/javascript" src="js/framework7.min.js"></script>
+     <script type="text/jsx" src="js/process.js"></script
